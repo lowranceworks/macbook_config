@@ -201,4 +201,5 @@ rd=rmdir
 # --- custom aliases ---
 alias tf='terraform'
 alias tg='terragrunt'
+alias k='kubectl'
 # ----------------------
