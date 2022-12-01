@@ -11,7 +11,40 @@ sudo chown -R $(whoami) /opt/homebrew /opt/homebrew/share/zsh /opt/homebrew/shar
 chmod u+w /opt/homebrew /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew/locks
 
 # install software with brew
-brew install $(<software.txt)
+brew install terragrunt
+brew install terraform
+brew install kubectl
+brew install bitwarden
+brew install signal
+brew install qemu
+brew install node
+brew install fig
+brew install go
+brew install krew
+brew install discord
+brew install awscli
+brew install google-cloud-sdk
+brew install azure-cli
+brew install flycut
+brew install rectangle
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
+brew install zsh-fast-syntax-highlighting
+brew install visual-studio-code
+brew install kind
+brew install podman
+brew install webcatalog
+brew install neofetch
+brew install iterm2
+brew install neovim
+brew install vim
+brew install fd
+brew install helm
+brew install argocd
+brew install jq
+brew install wget
+brew install gsed
+brew install telnet
 
 # install krew plugins (require changes to ~/.zshrc)
 kubectl krew install ctx
