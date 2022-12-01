@@ -74,15 +74,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 # install fonts for powerlevel10k
 
-# install my .zshrc and .oh-my-zsh settings
-mkdir -p ~/Projects/personal/
-git clone https://github.com/lowranceworks/macbook_config.git ~/Projects/personal/
-cp -r ~/Projects/personal/macbook_config/files/home_directory/.zshrc ~/.zshrc
-cp -r ~/Projects/personal/macbook_config/files/home_directory/.oh-my-zsh ~/.oh-my-zsh
-
-# reload zsh for changes to go into effect
-source ~/.zshrc
-
 # enable natural scroll test editing for iterm2
 
 # set default branch name to main
@@ -92,4 +83,5 @@ git config --global init.defaultBranch main
 cp ./files/home_directory/.zshrc $HOME
 cp -r ./files/home_directory/.oh-my-zsh/ $HOME
 
+# reload zsh for changes to go into effect
 source $HOME/.zshrc
