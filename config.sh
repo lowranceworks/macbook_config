@@ -11,46 +11,7 @@ sudo chown -R $(whoami) /opt/homebrew /opt/homebrew/share/zsh /opt/homebrew/shar
 chmod u+w /opt/homebrew /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew/locks
 
 # install software with brew
-echo "git
-terragrunt
-terraform
-kubectl
-bitwarden
-signal
-qemu
-node
-fig
-go
-krew
-discord
-awscli
-google-cloud-sdk
-azure-cli
-flycut
-rectangle
-zsh-autosuggestions
-zsh-syntax-highlighting
-zsh-fast-syntax-highlighting
-visual-studio-code
-kind
-podman
-webcatalog
-neofetch
-iterm2
-neovim
-vim
-fd
-helm
-argocd
-jq
-wget
-gsed
-telnet
-
-" > software.txt
-
 brew install $(<software.txt)
-
 
 # install krew plugins (require changes to ~/.zshrc)
 kubectl krew install ctx
