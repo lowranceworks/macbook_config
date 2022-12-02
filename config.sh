@@ -45,6 +45,7 @@ brew install jq
 brew install wget
 brew install gsed
 brew install telnet
+brew install vault
 
 # install krew plugins (require changes to ~/.zshrc)
 kubectl krew install ctx
