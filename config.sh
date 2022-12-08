@@ -19,10 +19,10 @@ sudo chown -R $(whoami) /opt/homebrew /opt/homebrew/share/zsh /opt/homebrew/shar
 chmod u+w /opt/homebrew /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew/locks
 
 # install terminal applications
-brew install $(<brew.txt)
+brew install $(<files/brew.txt)
 
 # install gui applications
-brew install --cask $(<brew-casks.txt)
+brew install --cask $(<files/brew-casks.txt)
 
 # install krew plugins (require changes to ~/.zshrc)
 kubectl krew install ctx
