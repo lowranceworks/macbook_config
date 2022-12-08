@@ -1,0 +1,13 @@
+bitwarden
+fig
+flycut
+iterm2
+rectangle
+slack
+webcatalog
+discord
+firefox
+google-cloud-sdk
+postman
+signal
+visual-studio-code
