@@ -202,5 +202,6 @@ rd=rmdir
 alias tf='terraform'
 alias tg='terragrunt'
 alias k='kubectl'
+alias d='docker'
 alias c='clear'
 # ----------------------
