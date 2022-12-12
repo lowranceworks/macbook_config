@@ -27,3 +27,4 @@ nmap
 pre-commit
 go-task/tap/go-task
 gh
+stern
