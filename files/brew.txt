@@ -29,3 +29,5 @@ go-task/tap/go-task
 gh
 stern
 tree
+python
+ansible
